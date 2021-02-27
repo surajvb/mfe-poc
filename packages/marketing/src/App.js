@@ -13,7 +13,6 @@ const generateClassName = createGenerateClassName({
 });
 
 export default ({ history }) => {
-  
   return (
     <div>
       <StylesProvider generateClassName={generateClassName}>
